@@ -31,8 +31,8 @@
             {{-- <span class="text-sm text-slate-500 mr-2">Light</span> --}}
             <input type="checkbox" id="toggle" class="hidden"/>
             <label for="toggle">
-              <div class="w-9 h-5 bg-slate-500 rounded-full flex items-center p-1 cursor-pointer">
-                <div class="w-4 h-4 bg-white rounded-full toggle-circle transition duration-300 ease-in-out"></div>
+              <div class="w-9 h-6 bg-gray-500 dark:bg-yellow-300 rounded-full flex items-center p-1 cursor-pointer">
+                <div class="w-4 h-4 toggle-circle transition duration-300 ease-in-out flex items-center justify-center"><span>🌗</span></div>
               </div>
             </label>
             {{-- <span class="text-sm text-slate-500 ml-2">Dark</span> --}}
