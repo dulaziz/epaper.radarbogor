@@ -1,4 +1,4 @@
-<div class="py-4">
+<div class="pb-8 pt-16">
     <div class="flex flex-col-reverse md:flex md:flex-row items-center">
         <div class="md:w-[60%]">
             <h1 class="text-5xl md:text-8xl font-black text-slate-800 dark:text-slate-400 mb-1 md:mb-2">Epaper</h1>
