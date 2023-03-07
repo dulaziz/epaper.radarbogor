@@ -142,7 +142,6 @@
             <a href="#" class="block py-2 pl-3 pr-4 md:p-0 text-center text-slate-900 dark:text-slate-400 md:hover:text-emerald-500 hover:bg-gray-100 md:hover:bg-transparent rounded">Contact</a>
           </li>
         </ul>
-        
             <div class="md:flex items-center justify-center gap-2 hidden">
               <a id="dropdownDefaultButton" data-dropdown-toggle="dropdown1" class="cursor-pointer text-slate-900 dark:text-slate-400 md:hover:text-emerald-500"><i data-feather="user"></i></a>
               <div id="dropdown1" class="z-10 w-64 hidden bg-white divide-y divide-gray-100 rounded-lg shadow dark:bg-gray-700">
@@ -184,6 +183,14 @@
                 </label>
               </div>
             </div>
+          <div class="flex justify-center">
+            <input type="checkbox" id="toggle" class="hidden"/>
+            <label for="toggle">
+              <div class="w-9 h-6 bg-gray-500 dark:bg-yellow-300 rounded-full flex items-center p-1 cursor-pointer">
+                <div class="w-4 h-4 toggle-circle transition duration-300 ease-in-out flex items-center justify-center"><span>🌗</span></div>
+              </div>
+            </label>
+          </div>
         </div>
 
     </div>
