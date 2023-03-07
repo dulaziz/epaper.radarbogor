@@ -143,47 +143,16 @@
           </li>
         </ul>
         
-            <div class="md:flex items-center justify-center gap-2 hidden">
-              <a id="dropdownDefaultButton" data-dropdown-toggle="dropdown1" class="cursor-pointer text-slate-900 dark:text-slate-400 md:hover:text-emerald-500"><i data-feather="user"></i></a>
-              <div id="dropdown1" class="z-10 w-64 hidden bg-white divide-y divide-gray-100 rounded-lg shadow dark:bg-gray-700">
-                <div class="p-3 text-center text-sm">
-                  
-                  <div class="w-full pb-2 border-b">
-                    <div class="mx-auto mb-1 w-20 h-20 overflow-hidden bg-gray-100 rounded-full dark:bg-gray-600">
-                      <img src="/blank-profile.png" alt="user-profile">
-                    </div>
-                    <h1 class="font-semibold uppercase">User Name</h1>
-                  </div>
-
-                  <div class="py-2 border-b">
-                    <h1 class="font-semibold">Date since</h1>
-                    <p class="text-gray-500">01/01/2023 - 01/04/2023</p>
-                  </div>
-
-                  <div class="py-2 border-b">
-                    <h1 class="font-semibold">Member Status</h1>
-                    <span class="font-medium inline-flex items-center text-emerald-500">
-                      <span data-feather="check-circle" class="size-12 mr-1"></span>Active
-                    </span>
-                  </div>
-
-                  <div class="pt-2">
-                    <a href="" class="text-red-500 hover:underline"><i data-feather="power" class="size-12 inline-flex items-center"></i> Sign Out</a>
-                  </div>
-                </div>
+          <div class="flex justify-center">
+            {{-- <span class="text-sm text-slate-500 mr-2">Light</span> --}}
+            <input type="checkbox" id="toggle" class="hidden"/>
+            <label for="toggle">
+              <div class="w-9 h-5 bg-slate-500 rounded-full flex items-center p-1 cursor-pointer">
+                <div class="w-4 h-4 bg-white rounded-full toggle-circle transition duration-300 ease-in-out"></div>
               </div>
-
-              <div class="flex justify-center">
-                <input type="checkbox" id="toggle" class="hidden"/>
-                <label for="toggle">
-                  <div class="w-10 h-5 bg-slate-900 dark:bg-slate-400 rounded-full flex gap-2 items-center p-1 cursor-pointer relative">
-                    <i data-feather="moon" class="text-white"></i>
-                    <i data-feather="sun" class="text-yellow-400"></i>
-                    <div class="w-4 h-4 bg-white rounded-full toggle-circle transition duration-300 ease-in-out absolute"></div>
-                  </div>
-                </label>
-              </div>
-            </div>
+            </label>
+            {{-- <span class="text-sm text-slate-500 ml-2">Dark</span> --}}
+          </div>
         </div>
 
     </div>
