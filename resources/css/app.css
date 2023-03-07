@@ -3,54 +3,12 @@
 @tailwind utilities;
 
 #toggle:checked ~ label div.toggle-circle {
-    @apply translate-x-3;
+    @apply translate-x-4;
 }
 
 /* Navbar Fixed */
-.navbar-fixed {
-    @apply fixed z-[40] bg-opacity-70;
+/* .navbar-fixed {
+    @apply fixed z-[9999] bg-opacity-70;
     backdrop-filter: blur(5px);
     box-shadow: 0 4px 7px -2px rgb(0 0 0 / 10%);
-}
-
-/* data-feather size */
-.size-18 {
-    width: 18px;
-    height: 18px;
-}
-.size-28 {
-    width: 24px;
-    height: 24px;
-}
-.size-38 {
-    width: 38px;
-    height: 38px;
-}
-.size-48 {
-    width: 48px;
-    height: 48px;
-}
-.f-gray-400 {
-    stroke: #dfdfdf;
-    stroke-width: 3;
-    stroke-linecap: round;
-    stroke-linejoin: round;
-    fill: none;
-}
-
-/* Slick Arrow */
-.slick-next {
-    right: 5px !important;
-}
-.slick-prev {
-    z-index: 1;
-    left: 5px !important;
-}
-
-.slick-next:before {
-    color: #757575 !important;
-    /* text-shadow: -1px 2px 3px #00000061; */
-}
-.slick-prev:before {
-    color: #757575 !important;
-}
+} */

@@ -7,7 +7,7 @@
             </p>
         </div>
         <div class="md:w-[40%]">
-            <img src="/device.png" alt="">
+            <img src="/device.png" alt="" class="mb-6 md:mb-0">
         </div>
     </div>
 </div>
