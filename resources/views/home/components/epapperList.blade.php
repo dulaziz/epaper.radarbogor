@@ -1,7 +1,9 @@
 <section class="py-4">
     <div class="mb-4 flex flex-col md:flex-row md:items-center md:justify-between">
         <div class="border-l-4 border-emerald-500 mb-2 md:mb-0">
-            <h1 class="pl-2 font-semibold text-slate-800 text-2xl dark:text-slate-400">Epapper List</h1>
+            <a href="">
+                <h1 class="pl-2 font-semibold text-slate-800 text-2xl dark:text-slate-400 hover:text-emerald-500 transition">Epaper</h1>
+            </a>
         </div>
 
         <form class="flex items-center">   

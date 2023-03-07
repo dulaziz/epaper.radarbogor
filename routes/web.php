@@ -51,5 +51,8 @@ Route::get('/product/editProduct', function () {
 
 //Auth
 Route::get('/login', function () {
-    return view('auth.login');
+    return view('home.page.auth.login');
+});
+Route::get('/register', function () {
+    return view('home.page.auth.register');
 });
