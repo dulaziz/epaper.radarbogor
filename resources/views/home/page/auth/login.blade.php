@@ -6,7 +6,7 @@
     <div class="w-96 bg-gray-50 border-t-4 border-t-emerald-500 rounded-lg p-6 shadow-md">
         <div class="flex items-center justify-between mb-8">
             <h1 class="text-2xl font-semibold text-gray-700">Login Form</h1>
-            <a href="/" class="flex items-center text-xl"><ion-icon name="arrow-undo-outline"></ion-icon></a>
+            <a href="/" class="flex items-center text-xl hover:text-blue-500"><ion-icon name="arrow-undo-outline"></ion-icon></a>
         </div>
     <form>
         <div class="mb-6">
@@ -19,7 +19,6 @@
         </div>
         <button class="w-full bg-emerald-500 text-gray-50 py-2 rounded-lg mb-4 hover:bg-emerald-400 transition duration-200">Login</button>
         <p class="text-sm text-center">Not a member? <a href="/register" class="text-blue-500 hover:underline">Register here</a></p>
-        
     </form>
   
     </div>

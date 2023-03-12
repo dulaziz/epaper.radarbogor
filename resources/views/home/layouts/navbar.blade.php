@@ -45,23 +45,23 @@
         <div class="mx-auto mb-1 w-20 h-20 overflow-hidden bg-gray-100 rounded-full dark:bg-gray-600">
           <img src="/blank-profile.png" alt="user-profile">
         </div>
-        <h1 class="font-semibold uppercase">User Name</h1>
+        <h1 class="font-semibold uppercase text-gray-800 dark:text-gray-200">User Name</h1>
       </div>
   
       <div class="py-2 border-b">
-        <h1 class="font-semibold">Date since</h1>
-        <p class="text-gray-500">01/01/2023 - 01/04/2023</p>
+        <h1 class="font-semibold text-gray-800 dark:text-gray-200">Date since</h1>
+        <p class="text-gray-500 dark:text-gray-300">01/01/2023 - 01/04/2023</p>
       </div>
   
       <div class="py-2 border-b">
-        <h1 class="font-semibold">Member Status</h1>
+        <h1 class="font-semibold text-gray-800 dark:text-gray-200">Member Status</h1>
         <span class="font-medium inline-flex items-center text-emerald-500">
-          <span data-feather="check-circle" class="size-12 mr-1"></span>Active
+          <ion-icon name="checkmark-done-outline" class="text-xl mr-1"></ion-icon>Active
         </span>
       </div>
   
       <div class="pt-2">
-        <a href="" class="text-red-500 hover:underline"><i data-feather="power" class="size-12 inline-flex items-center"></i> Logout</a>
+        <a href="" class="text-red-500 hover:underline inline-flex items-center"><ion-icon name="power-outline" class="text-xl mr-1"></ion-icon>Logout</a>
       </div>
     </div>
 </nav>

@@ -1,7 +1,7 @@
 <section class="py-4">
     <div class="mb-4 flex flex-col md:flex-row md:items-center md:justify-between">
         <div class="border-l-4 border-emerald-500 mb-2 md:mb-0">
-            <a href="">
+            <a href="/epaperList">
                 <h1 class="pl-2 font-semibold text-slate-800 text-2xl dark:text-slate-400 hover:text-emerald-500 transition">Epaper</h1>
             </a>
         </div>
@@ -19,7 +19,7 @@
 
     <div class="grid grid-cols-2 lg:grid-cols-5 md:grid-cols-3 gap-2 md:gap-3">
         
-        <a href="/showEpaper" class="relative transition ease-out duration-300 cursor-pointer hover:scale-[1.1] h-60 md:h-80 overflow-hidden rounded-lg border border-gray-200 dark:border-gray-700">
+        <a href="/showEpaper" class="relative transition ease-out duration-300 cursor-pointer hover:scale-[1.05] h-60 md:h-80 overflow-hidden rounded-lg border border-gray-200 dark:border-gray-700">
             <div class="absolute text-white bottom-0 h-full w-full pt-12 px-2 bg-gradient-to-t from-gray-900 via-gray-900/0 to-gray-900/0 dark:bg-gradient-to-t dark:from-gray-900 dark:via-gray-900/50 dark:to-gray-900/25">
             </div>
                 <img class="" src="/satuu-15.jpg" alt="image description">
@@ -28,7 +28,7 @@
                 <h3 class="text-xs md:text-sm text-gray-200">9 Februari 2023</h3>
             </div>
         </a>
-        <a href="/showEpaper" class="relative transition ease-out duration-300 cursor-pointer hover:scale-[1.1] h-60 md:h-80 overflow-hidden rounded-lg border border-gray-200 dark:border-gray-700">
+        <a href="/showEpaper" class="relative transition ease-out duration-300 cursor-pointer hover:scale-[1.05] h-60 md:h-80 overflow-hidden rounded-lg border border-gray-200 dark:border-gray-700">
             <div class="absolute text-white bottom-0 h-full w-full pt-12 px-2 bg-gradient-to-t from-gray-900 via-gray-900/0 to-gray-900/0 dark:bg-gradient-to-t dark:from-gray-900 dark:via-gray-900/50 dark:to-gray-900/25">
             </div>
                 <img class="" src="/cover.jpg" alt="image description">
@@ -37,7 +37,7 @@
                 <h3 class="text-xs md:text-sm text-gray-200">9 Februari 2023</h3>
             </div>
         </a>
-        <a href="/showEpaper" class="relative transition ease-out duration-300 cursor-pointer hover:scale-[1.1] h-60 md:h-80 overflow-hidden rounded-lg border border-gray-200 dark:border-gray-700">
+        <a href="/showEpaper" class="relative transition ease-out duration-300 cursor-pointer hover:scale-[1.05] h-60 md:h-80 overflow-hidden rounded-lg border border-gray-200 dark:border-gray-700">
             <div class="absolute text-white bottom-0 h-full w-full pt-12 px-2 bg-gradient-to-t from-gray-900 via-gray-900/0 to-gray-900/0 dark:bg-gradient-to-t dark:from-gray-900 dark:via-gray-900/50 dark:to-gray-900/25">
             </div>
                 <img class="" src="/satuu-15.jpg" alt="image description">
@@ -46,7 +46,7 @@
                 <h3 class="text-xs md:text-sm text-gray-200">9 Februari 2023</h3>
             </div>
         </a>
-        <a href="/showEpaper" class="relative transition ease-out duration-300 cursor-pointer hover:scale-[1.1] h-60 md:h-80 overflow-hidden rounded-lg border border-gray-200 dark:border-gray-700">
+        <a href="/showEpaper" class="relative transition ease-out duration-300 cursor-pointer hover:scale-[1.05] h-60 md:h-80 overflow-hidden rounded-lg border border-gray-200 dark:border-gray-700">
             <div class="absolute text-white bottom-0 h-full w-full pt-12 px-2 bg-gradient-to-t from-gray-900 via-gray-900/0 to-gray-900/0 dark:bg-gradient-to-t dark:from-gray-900 dark:via-gray-900/50 dark:to-gray-900/25">
             </div>
                 <img class="" src="/satuu-15.jpg" alt="image description">
@@ -55,7 +55,7 @@
                 <h3 class="text-xs md:text-sm text-gray-200">9 Februari 2023</h3>
             </div>
         </a>
-        <a href="/showEpaper" class="relative transition ease-out duration-300 cursor-pointer hover:scale-[1.1] h-60 md:h-80 overflow-hidden rounded-lg border border-gray-200 dark:border-gray-700">
+        <a href="/showEpaper" class="relative transition ease-out duration-300 cursor-pointer hover:scale-[1.05] h-60 md:h-80 overflow-hidden rounded-lg border border-gray-200 dark:border-gray-700">
             <div class="absolute text-white bottom-0 h-full w-full pt-12 px-2 bg-gradient-to-t from-gray-900 via-gray-900/0 to-gray-900/0 dark:bg-gradient-to-t dark:from-gray-900 dark:via-gray-900/50 dark:to-gray-900/25">
             </div>
                 <img class="" src="/satuu-15.jpg" alt="image description">

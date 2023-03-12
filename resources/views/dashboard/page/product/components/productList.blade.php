@@ -44,7 +44,12 @@
                     1 Bulan
                 </td>
                 <td class="px-6 py-4">
-                    <a href="/product/editProduct" class="font-medium text-gray-700 hover:text-blue-600"><i data-feather="edit-3"></i></a>
+                    <a href="/member/editMember" class="text-gray-700 hover:text-blue-600">
+                        <ion-icon name="create-outline" class="text-xl stroke-2"></ion-icon>
+                    </a>
+                    <a href="#" class="text-gray-700 hover:text-red-600">
+                        <ion-icon name="trash-outline" class="text-xl stroke-2"></ion-icon>
+                    </a>
                 </td>
             </tr>
             <tr class="border-b bg-gray-50 dark:bg-gray-800 dark:border-gray-700">
@@ -61,7 +66,12 @@
                     3 Bulan
                 </td>
                 <td class="px-6 py-4">
-                    <a href="/product/editProduct" class="font-medium text-gray-700 hover:text-blue-600"><i data-feather="edit-3"></i></a>
+                    <a href="/member/editMember" class="text-gray-700 hover:text-blue-600">
+                        <ion-icon name="create-outline" class="text-xl stroke-2"></ion-icon>
+                    </a>
+                    <a href="#" class="text-gray-700 hover:text-red-600">
+                        <ion-icon name="trash-outline" class="text-xl stroke-2"></ion-icon>
+                    </a>
                 </td>
             </tr>
             <tr class="bg-white border-b dark:bg-gray-900 dark:border-gray-700">
@@ -78,7 +88,12 @@
                     6 Bulan
                 </td>
                 <td class="px-6 py-4">
-                    <a href="/product/editProduct" class="font-medium text-gray-700 hover:text-blue-600"><i data-feather="edit-3"></i></a>
+                    <a href="/member/editMember" class="text-gray-700 hover:text-blue-600">
+                        <ion-icon name="create-outline" class="text-xl stroke-2"></ion-icon>
+                    </a>
+                    <a href="#" class="text-gray-700 hover:text-red-600">
+                        <ion-icon name="trash-outline" class="text-xl stroke-2"></ion-icon>
+                    </a>
                 </td>
             </tr>
             <tr class="border-b bg-gray-50 dark:bg-gray-800 dark:border-gray-700">
@@ -95,7 +110,12 @@
                     12 Bulan
                 </td>
                 <td class="px-6 py-4">
-                    <a href="/product/editProduct" class="font-medium text-gray-700 hover:text-blue-600"><i data-feather="edit-3"></i></a>
+                    <a href="/member/editMember" class="text-gray-700 hover:text-blue-600">
+                        <ion-icon name="create-outline" class="text-xl stroke-2"></ion-icon>
+                    </a>
+                    <a href="#" class="text-gray-700 hover:text-red-600">
+                        <ion-icon name="trash-outline" class="text-xl stroke-2"></ion-icon>
+                    </a>
                 </td>
             </tr>
         </tbody>

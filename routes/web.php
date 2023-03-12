@@ -27,6 +27,10 @@ Route::get('/showEpaper', function () {
 
 
 //Page
+Route::get('/epaperList', function () {
+    return view('home.page.epaperList.index');
+});
+
 //Member
 Route::get('/member', function () {
     return view('dashboard.page.member.index');

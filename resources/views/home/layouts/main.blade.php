@@ -8,9 +8,6 @@
     'resources/js/app.js'
     ])
 
-    <!-- Feather Icons -->
-    <script src="https://unpkg.com/feather-icons"></script>
-
     {{-- Google Fonts --}}
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -38,10 +35,6 @@
 </div>
 
 @include('home.layouts.footer')
-
-<script>
-  feather.replace()
-</script>
 
 <script src="js/script.js"></script>
 

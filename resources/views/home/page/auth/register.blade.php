@@ -6,7 +6,7 @@
     <div class="w-96 bg-gray-50 border-t-4 border-t-emerald-500 rounded-lg p-6 shadow-md">
         <div class="flex items-center justify-between mb-8">
             <h1 class="text-2xl font-semibold text-gray-700">Register Form</h1>
-            <a href="/login" class="flex items-center text-xl"><ion-icon name="arrow-undo-outline"></ion-icon></a>
+            <a href="/login" class="flex items-center text-xl hover:text-blue-500"><ion-icon name="arrow-undo-outline"></ion-icon></a>
         </div>
     <form>
         <div class="mb-6">
