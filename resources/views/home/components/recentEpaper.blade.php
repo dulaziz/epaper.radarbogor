@@ -1,20 +1,20 @@
-<section class="py-4">
-    <div class="mb-4 flex flex-col md:flex-row md:items-center md:justify-between">
+<section class="pt-16 pb-4" id="epaper">
+    <div class="mb-4 flex items-center justify-between">
         <div class="border-l-4 border-emerald-500 mb-2 md:mb-0">
-            <a href="/epaperList">
-                <h1 class="pl-2 font-semibold text-slate-800 text-2xl dark:text-slate-400 hover:text-emerald-500 transition">Epaper</h1>
-            </a>
+            <h1 class="pl-2 font-semibold text-slate-800 text-2xl dark:text-slate-400">Epaper</h1>
         </div>
 
-        <form class="flex items-center">   
+        <a href="/epaperList" class="text-slate-900 dark:text-slate-400 md:hover:text-emerald-500">Show All</a>
+
+        {{-- <form class="flex items-center">   
             <label for="simple-search" class="sr-only">Search</label>
             <div class="relative w-full">
                 <div class="absolute inset-y-0 left-0 flex items-center pointer-events-none">
-                    <i data-feather="search" class="text-emerald-500"></i>
+                    <ion-icon name="search-outline" class="text-emerald-500"></ion-icon>
                 </div>
                 <input type="text" id="simple-search" class="bg-transparent placeholder:dark:text-slate-400 border border-t-0 border-x-0 border-emerald-500 text-gray-900 dark:text-slate-400 text-sm outline-none block w-full pl-10 focus:ring-0 focus:border-slate-600" placeholder="Search" required>
             </div>
-        </form>
+        </form> --}}
     </div>
 
     <div class="grid grid-cols-2 lg:grid-cols-5 md:grid-cols-3 gap-2 md:gap-3">
@@ -67,7 +67,7 @@
       
     </div>
 
-    <div class="mt-6">
+    {{-- <div class="mt-6">
         <nav class="text-center md:flex items-center md:justify-between" aria-label="Table navigation">
             <div class="mb-1 md:mb-0">
                 <span class="text-sm font-normal text-gray-500 dark:text-gray-400">Showing <span class="font-semibold text-gray-900 dark:text-white">1-10</span> of <span class="font-semibold text-gray-900 dark:text-white">1000</span></span>
@@ -90,7 +90,7 @@
                 </li>
             </ul>
         </nav>
-    </div>
+    </div> --}}
   
 </section>
 

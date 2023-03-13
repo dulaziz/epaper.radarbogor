@@ -12,7 +12,7 @@
             <label for="simple-search" class="sr-only">Search</label>
             <div class="relative w-full">
                 <div class="absolute inset-y-0 left-0 flex items-center pointer-events-none">
-                    <i data-feather="search" class="text-emerald-500"></i>
+                    <ion-icon name="search-outline" class="text-emerald-500"></ion-icon>
                 </div>
                 <input type="text" id="simple-search" class="bg-transparent placeholder:dark:text-slate-400 border border-t-0 border-x-0 border-emerald-500 text-gray-900 dark:text-slate-400 text-sm outline-none block w-full pl-10 focus:ring-0 focus:border-slate-600" placeholder="Search" required>
             </div>

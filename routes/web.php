@@ -31,6 +31,11 @@ Route::get('/epaperList', function () {
     return view('home.page.epaperList.index');
 });
 
+//Order
+Route::get('/order', function () {
+    return view('dashboard.page.order.index');
+});
+
 //Member
 Route::get('/member', function () {
     return view('dashboard.page.member.index');

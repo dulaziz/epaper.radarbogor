@@ -12,10 +12,10 @@
               <a href="/" class="text-slate-900 dark:text-slate-400 md:hover:text-emerald-500">Home</a>
             </li>
             <li>
-              <a href="#" class="text-slate-900 dark:text-slate-400 md:hover:text-emerald-500">Epaper</a>
+              <a href="#epaper" class="text-slate-900 dark:text-slate-400 md:hover:text-emerald-500">Epaper</a>
             </li>
             <li>
-              <a href="#" class="text-slate-900 dark:text-slate-400 md:hover:text-emerald-500">Pricing</a>
+              <a href="#pricing" class="text-slate-900 dark:text-slate-400 md:hover:text-emerald-500">Pricing</a>
             </li>
             <li>
               <a href="#" class="text-slate-900 dark:text-slate-400 md:hover:text-emerald-500">Contact</a>
@@ -23,7 +23,7 @@
           </ul>
     </div>
 
-    <div class="flex items-center gap-3">
+    <div class="flex items-center gap-1 md:gap-3">
         <a href="/login" class="flex items-center"><ion-icon name="log-in-outline" class="text-2xl cursor-pointer text-slate-900 dark:text-slate-400 md:hover:text-emerald-500"></ion-icon></a>
         <a id="dropdownDefaultButton" data-dropdown-toggle="dropdown1" class="flex items-center cursor-pointer text-2xl text-slate-900 dark:text-slate-400 md:hover:text-emerald-500"><ion-icon name="person-circle-outline"></ion-icon>
         </a>

@@ -4,8 +4,6 @@
     <div class="mb-2 md:mb-0">
         <select name="status" id="status" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
         <option selected>Status</option>
-        <option value="Ac">Active</option>
-        <option value="Ex">Expired</option>
         <option value="Wt">Waiting</option>
         <option value="Cn">Cenceled</option>
         </select>
@@ -53,10 +51,7 @@
                     Status
                 </th>
                 <th scope="col" class="px-6 py-3">
-                    Since
-                </th>
-                <th scope="col" class="px-6 py-3">
-                    Expired
+                    Checkout
                 </th>
                 <th scope="col" class="px-6 py-3">
                     Action
@@ -82,13 +77,10 @@
                 </td>
                 <td class="px-6 py-4">
                     <div class="flex items-center">
-                        <div class="h-2.5 w-2.5 rounded-full bg-green-500 mr-2"></div> Active
+                        <div class="h-2.5 w-2.5 rounded-full bg-yellow-300 mr-2"></div> Waiting
                 </td>
                 <td class="px-6 py-4">
                     11 Februari 2023
-                </td>
-                <td class="px-6 py-4">
-                    11 Mei 2023
                 </td>
                 <td class="px-6 py-4">
                     <a href="/member/editMember" class="text-gray-700 hover:text-blue-600">
@@ -117,14 +109,11 @@
                 </td>
                 <td class="px-6 py-4">
                     <div class="flex items-center">
-                        <div class="h-2.5 w-2.5 rounded-full bg-red-500 mr-2"></div> Expired
+                        <div class="h-2.5 w-2.5 rounded-full bg-yellow-300 mr-2"></div> Waiting
                     </div>
                 </td>
                 <td class="px-6 py-4">
                     11 Februari 2023
-                </td>
-                <td class="px-6 py-4">
-                    11 Mei 2023
                 </td>
                 <td class="px-6 py-4">
                     <a href="/member/editMember" class="text-gray-700 hover:text-blue-600">
@@ -159,9 +148,6 @@
                     11 Februari 2023
                 </td>
                 <td class="px-6 py-4">
-                    11 Mei 2023
-                </td>
-                <td class="px-6 py-4">
                     <a href="/member/editMember" class="text-gray-700 hover:text-blue-600">
                         <ion-icon name="create-outline" class="text-xl stroke-2"></ion-icon>
                     </a>
@@ -193,9 +179,6 @@
                 </td>
                 <td class="px-6 py-4">
                     11 Februari 2023
-                </td>
-                <td class="px-6 py-4">
-                    11 Mei 2023
                 </td>
                 <td class="px-6 py-4">
                     <a href="/member/editMember" class="text-gray-700 hover:text-blue-600">

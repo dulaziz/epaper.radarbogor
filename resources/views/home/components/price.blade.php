@@ -1,4 +1,4 @@
-<section class="py-4">
+<section class="pt-16 pb-4" id="pricing">
     <div class="border-l-4 border-emerald-500">
         <h1 class="mb-4 pl-2 font-semibold text-slate-800 text-2xl dark:text-slate-400">Pricing</h1>
     </div>

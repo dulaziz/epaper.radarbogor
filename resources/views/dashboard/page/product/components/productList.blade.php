@@ -13,6 +13,9 @@
         <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
             <tr>
                 <th scope="col" class="px-6 py-3">
+                    No
+                </th>
+                <th scope="col" class="px-6 py-3">
                     Product Name
                 </th>
                 <th scope="col" class="px-6 py-3">
@@ -31,6 +34,9 @@
         </thead>
         <tbody>
             <tr class="bg-white border-b dark:bg-gray-900 dark:border-gray-700">
+                <td class="px-6 py-4">
+                    01
+                </td>
                 <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                     Paket Clasic
                 </th>
@@ -53,6 +59,9 @@
                 </td>
             </tr>
             <tr class="border-b bg-gray-50 dark:bg-gray-800 dark:border-gray-700">
+                <td class="px-6 py-4">
+                    02
+                </td>
                 <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                     Paket Silver
                 </th>
@@ -75,6 +84,9 @@
                 </td>
             </tr>
             <tr class="bg-white border-b dark:bg-gray-900 dark:border-gray-700">
+                <td class="px-6 py-4">
+                    03
+                </td>
                 <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                     Paket Gold
                 </th>
@@ -97,6 +109,9 @@
                 </td>
             </tr>
             <tr class="border-b bg-gray-50 dark:bg-gray-800 dark:border-gray-700">
+                <td class="px-6 py-4">
+                    04
+                </td>
                 <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                     Paket Platinum
                 </th>
