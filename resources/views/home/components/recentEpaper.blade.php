@@ -17,9 +17,100 @@
         </form> --}}
     </div>
 
-    <div class="grid grid-cols-2 lg:grid-cols-5 md:grid-cols-3 gap-2 md:gap-3">
+    <div class="epaper-slick">
+
+        <a href="/showEpaper" class="group py-1 mx-1 rounded-lg overflow-hidden bg-white relative cursor-pointer border border-gray-200 dark:border-gray-700">
+            <div class="absolute text-white bottom-0 h-full w-full pt-12 px-2 group-hover:bg-gradient-to-t group-hover:from-emerald-500 group-hover:via-emerald-500/0 group-hover:to-emerald-500/0 bg-gradient-to-t from-gray-900 via-gray-900/0 to-gray-900/0 dark:bg-gradient-to-t dark:from-gray-900 dark:via-gray-900/50 dark:to-gray-900/25 duration-300">
+            </div>
+            <img class="" src="/satuu-15.jpg" alt="image description">
+            <div class="absolute bottom-0 p-2">
+                <h1 class="text-sm md:text-base leading-none font-medium mb-1 text-gray-50">Epaper Radar Bogor</h1>
+                <h3 class="text-xs md:text-sm text-gray-200">9 Februari 2023</h3>
+            </div>
+        </a>
+        <a href="/showEpaper" class="group py-1 mx-1 rounded-lg overflow-hidden bg-white relative cursor-pointer border border-gray-200 dark:border-gray-700">
+            <div class="absolute text-white bottom-0 h-full w-full pt-12 px-2 group-hover:bg-gradient-to-t group-hover:from-emerald-500 group-hover:via-emerald-500/0 group-hover:to-emerald-500/0 bg-gradient-to-t from-gray-900 via-gray-900/0 to-gray-900/0 dark:bg-gradient-to-t dark:from-gray-900 dark:via-gray-900/50 dark:to-gray-900/25 duration-300">
+            </div>
+            <img class="" src="/satuu-15.jpg" alt="image description">
+            <div class="absolute bottom-0 p-2">
+                <h1 class="text-sm md:text-base leading-none font-medium mb-1 text-gray-50">Epaper Radar Bogor</h1>
+                <h3 class="text-xs md:text-sm text-gray-200">9 Februari 2023</h3>
+            </div>
+        </a>
+        <a href="/showEpaper" class="group py-1 mx-1 rounded-lg overflow-hidden bg-white relative cursor-pointer border border-gray-200 dark:border-gray-700">
+            <div class="absolute text-white bottom-0 h-full w-full pt-12 px-2 group-hover:bg-gradient-to-t group-hover:from-emerald-500 group-hover:via-emerald-500/0 group-hover:to-emerald-500/0 bg-gradient-to-t from-gray-900 via-gray-900/0 to-gray-900/0 dark:bg-gradient-to-t dark:from-gray-900 dark:via-gray-900/50 dark:to-gray-900/25 duration-300">
+            </div>
+            <img class="" src="/satuu-15.jpg" alt="image description">
+            <div class="absolute bottom-0 p-2">
+                <h1 class="text-sm md:text-base leading-none font-medium mb-1 text-gray-50">Epaper Radar Bogor</h1>
+                <h3 class="text-xs md:text-sm text-gray-200">9 Februari 2023</h3>
+            </div>
+        </a>
+        <a href="/showEpaper" class="group py-1 mx-1 rounded-lg overflow-hidden bg-white relative cursor-pointer border border-gray-200 dark:border-gray-700">
+            <div class="absolute text-white bottom-0 h-full w-full pt-12 px-2 group-hover:bg-gradient-to-t group-hover:from-emerald-500 group-hover:via-emerald-500/0 group-hover:to-emerald-500/0 bg-gradient-to-t from-gray-900 via-gray-900/0 to-gray-900/0 dark:bg-gradient-to-t dark:from-gray-900 dark:via-gray-900/50 dark:to-gray-900/25 duration-300">
+            </div>
+            <img class="" src="/satuu-15.jpg" alt="image description">
+            <div class="absolute bottom-0 p-2">
+                <h1 class="text-sm md:text-base leading-none font-medium mb-1 text-gray-50">Epaper Radar Bogor</h1>
+                <h3 class="text-xs md:text-sm text-gray-200">9 Februari 2023</h3>
+            </div>
+        </a>
+        <a href="/showEpaper" class="group py-1 mx-1 rounded-lg overflow-hidden bg-white relative cursor-pointer border border-gray-200 dark:border-gray-700">
+            <div class="absolute text-white bottom-0 h-full w-full pt-12 px-2 group-hover:bg-gradient-to-t group-hover:from-emerald-500 group-hover:via-emerald-500/0 group-hover:to-emerald-500/0 bg-gradient-to-t from-gray-900 via-gray-900/0 to-gray-900/0 dark:bg-gradient-to-t dark:from-gray-900 dark:via-gray-900/50 dark:to-gray-900/25 duration-300">
+            </div>
+            <img class="" src="/satuu-15.jpg" alt="image description">
+            <div class="absolute bottom-0 p-2">
+                <h1 class="text-sm md:text-base leading-none font-medium mb-1 text-gray-50">Epaper Radar Bogor</h1>
+                <h3 class="text-xs md:text-sm text-gray-200">9 Februari 2023</h3>
+            </div>
+        </a>
+        <a href="/showEpaper" class="group py-1 mx-1 rounded-lg overflow-hidden bg-white relative cursor-pointer border border-gray-200 dark:border-gray-700">
+            <div class="absolute text-white bottom-0 h-full w-full pt-12 px-2 group-hover:bg-gradient-to-t group-hover:from-emerald-500 group-hover:via-emerald-500/0 group-hover:to-emerald-500/0 bg-gradient-to-t from-gray-900 via-gray-900/0 to-gray-900/0 dark:bg-gradient-to-t dark:from-gray-900 dark:via-gray-900/50 dark:to-gray-900/25 duration-300">
+            </div>
+            <img class="" src="/satuu-15.jpg" alt="image description">
+            <div class="absolute bottom-0 p-2">
+                <h1 class="text-sm md:text-base leading-none font-medium mb-1 text-gray-50">Epaper Radar Bogor</h1>
+                <h3 class="text-xs md:text-sm text-gray-200">9 Februari 2023</h3>
+            </div>
+        </a>
+        <a href="/showEpaper" class="group py-1 mx-1 rounded-lg overflow-hidden bg-white relative cursor-pointer border border-gray-200 dark:border-gray-700">
+            <div class="absolute text-white bottom-0 h-full w-full pt-12 px-2 group-hover:bg-gradient-to-t group-hover:from-emerald-500 group-hover:via-emerald-500/0 group-hover:to-emerald-500/0 bg-gradient-to-t from-gray-900 via-gray-900/0 to-gray-900/0 dark:bg-gradient-to-t dark:from-gray-900 dark:via-gray-900/50 dark:to-gray-900/25 duration-300">
+            </div>
+            <img class="" src="/satuu-15.jpg" alt="image description">
+            <div class="absolute bottom-0 p-2">
+                <h1 class="text-sm md:text-base leading-none font-medium mb-1 text-gray-50">Epaper Radar Bogor</h1>
+                <h3 class="text-xs md:text-sm text-gray-200">9 Februari 2023</h3>
+            </div>
+        </a>
+        <a href="/showEpaper" class="group py-1 mx-1 rounded-lg overflow-hidden bg-white relative cursor-pointer border border-gray-200 dark:border-gray-700">
+            <div class="absolute text-white bottom-0 h-full w-full pt-12 px-2 group-hover:bg-gradient-to-t group-hover:from-emerald-500 group-hover:via-emerald-500/0 group-hover:to-emerald-500/0 bg-gradient-to-t from-gray-900 via-gray-900/0 to-gray-900/0 dark:bg-gradient-to-t dark:from-gray-900 dark:via-gray-900/50 dark:to-gray-900/25 duration-300">
+            </div>
+            <img class="" src="/satuu-15.jpg" alt="image description">
+            <div class="absolute bottom-0 p-2">
+                <h1 class="text-sm md:text-base leading-none font-medium mb-1 text-gray-50">Epaper Radar Bogor</h1>
+                <h3 class="text-xs md:text-sm text-gray-200">9 Februari 2023</h3>
+            </div>
+        </a>
+        <a href="/showEpaper" class="group py-1 mx-1 rounded-lg overflow-hidden bg-white relative cursor-pointer border border-gray-200 dark:border-gray-700">
+            <div class="absolute text-white bottom-0 h-full w-full pt-12 px-2 group-hover:bg-gradient-to-t group-hover:from-emerald-500 group-hover:via-emerald-500/0 group-hover:to-emerald-500/0 bg-gradient-to-t from-gray-900 via-gray-900/0 to-gray-900/0 dark:bg-gradient-to-t dark:from-gray-900 dark:via-gray-900/50 dark:to-gray-900/25 duration-300">
+            </div>
+            <img class="" src="/satuu-15.jpg" alt="image description">
+            <div class="absolute bottom-0 p-2">
+                <h1 class="text-sm md:text-base leading-none font-medium mb-1 text-gray-50">Epaper Radar Bogor</h1>
+                <h3 class="text-xs md:text-sm text-gray-200">9 Februari 2023</h3>
+            </div>
+        </a>
+        <a href="/showEpaper" class="group py-1 mx-1 rounded-lg overflow-hidden bg-white relative cursor-pointer border border-gray-200 dark:border-gray-700">
+            <div class="absolute text-white bottom-0 h-full w-full pt-12 px-2 group-hover:bg-gradient-to-t group-hover:from-emerald-500 group-hover:via-emerald-500/0 group-hover:to-emerald-500/0 bg-gradient-to-t from-gray-900 via-gray-900/0 to-gray-900/0 dark:bg-gradient-to-t dark:from-gray-900 dark:via-gray-900/50 dark:to-gray-900/25 duration-300">
+            </div>
+            <img class="" src="/satuu-15.jpg" alt="image description">
+            <div class="absolute bottom-0 p-2">
+                <h1 class="text-sm md:text-base leading-none font-medium mb-1 text-gray-50">Epaper Radar Bogor</h1>
+                <h3 class="text-xs md:text-sm text-gray-200">9 Februari 2023</h3>
+            </div>
+        </a>
         
-        <a href="/showEpaper" class="relative transition ease-out duration-300 cursor-pointer hover:scale-[1.05] h-60 md:h-80 overflow-hidden rounded-lg border border-gray-200 dark:border-gray-700">
+        {{-- <a href="/showEpaper" class="relative transition ease-out duration-300 cursor-pointer hover:scale-[1.05] h-60 md:h-80 overflow-hidden rounded-lg border border-gray-200 dark:border-gray-700">
             <div class="absolute text-white bottom-0 h-full w-full pt-12 px-2 bg-gradient-to-t from-gray-900 via-gray-900/0 to-gray-900/0 dark:bg-gradient-to-t dark:from-gray-900 dark:via-gray-900/50 dark:to-gray-900/25">
             </div>
                 <img class="" src="/satuu-15.jpg" alt="image description">
@@ -63,7 +154,7 @@
                 <h1 class="text-sm md:text-base leading-none font-medium mb-1 text-gray-50">Epaper Radar Bogor</h1>
                 <h3 class="text-xs md:text-sm text-gray-200">9 Februari 2023</h3>
             </div>
-        </a>
+        </a> --}}
       
     </div>
 

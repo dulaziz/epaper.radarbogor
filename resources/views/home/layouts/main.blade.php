@@ -71,5 +71,42 @@
   });
 </script>
 
+<script type="text/javascript">
+  $(document).ready(function(){
+    $('.epaper-slick').slick({
+      slidesToShow: 5,
+      slidesToScroll: 1,
+      centerMode: true,
+      focusOnSelect: true,
+      responsive: [
+        {
+          breakpoint: 770,
+          settings: {
+            arrows: false,
+            centerMode: true,
+            slidesToShow: 3
+          }
+        },
+        {
+        breakpoint: 430,
+        settings: {
+          arrows: false,
+          centerMode: true,
+          slidesToShow: 2
+        }
+      },
+        {
+        breakpoint: 330,
+        settings: {
+          arrows: false,
+          centerMode: true,
+          slidesToShow: 1
+        }
+      }
+      ]
+    });
+  });
+</script>
+
 </body>
 </html>

@@ -4,7 +4,7 @@
             <h1 class="md:text-xl font-medium dark:text-gray-400">
                 Epaper Edisi 8 Februari 2023 | RADAR BOGOR DIGITAL
             </h1>
-                <a href="/" class="text-gray-600 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-500"><i data-feather="x-circle"></i></a>
+                <a href="/" class="text-gray-600 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-500"><ion-icon name="arrow-undo-outline" class="text-2xl"></ion-icon></a>
         </div>
         <div class="rounded-lg overflow-hidden">
             <div style="position:relative;padding-top:max(60%,326px);height:0;width:100%">
