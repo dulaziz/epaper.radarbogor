@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,9 +7,6 @@
     'resources/css/app.css',
     'resources/js/app.js'
     ])
-
-    <!-- Feather Icons -->
-    <script src="https://unpkg.com/feather-icons"></script>
 
     {{-- Google Fonts --}}
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -39,10 +36,6 @@
 
 @include('home.layouts.footer')
 
-<script>
-  feather.replace()
-</script>
-
 <script src="js/script.js"></script>
 
 <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
@@ -67,6 +60,43 @@
         },
         {
         breakpoint: 480,
+        settings: {
+          arrows: false,
+          centerMode: true,
+          slidesToShow: 1
+        }
+      }
+      ]
+    });
+  });
+</script>
+
+<script type="text/javascript">
+  $(document).ready(function(){
+    $('.epaper-slick').slick({
+      slidesToShow: 5,
+      slidesToScroll: 1,
+      centerMode: true,
+      focusOnSelect: true,
+      responsive: [
+        {
+          breakpoint: 770,
+          settings: {
+            arrows: false,
+            centerMode: true,
+            slidesToShow: 3
+          }
+        },
+        {
+        breakpoint: 430,
+        settings: {
+          arrows: false,
+          centerMode: true,
+          slidesToShow: 2
+        }
+      },
+        {
+        breakpoint: 330,
         settings: {
           arrows: false,
           centerMode: true,

@@ -3,7 +3,7 @@
 @section('content')
 
 @include('home.components.banner')
-@include('home.components.epapperList')
+@include('home.components.recentEpaper')
 @include('home.components.price')
 {{-- @include('home.components.carousel') --}}
 

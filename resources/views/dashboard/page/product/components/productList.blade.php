@@ -13,6 +13,9 @@
         <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
             <tr>
                 <th scope="col" class="px-6 py-3">
+                    No
+                </th>
+                <th scope="col" class="px-6 py-3">
                     Product Name
                 </th>
                 <th scope="col" class="px-6 py-3">
@@ -31,6 +34,9 @@
         </thead>
         <tbody>
             <tr class="bg-white border-b dark:bg-gray-900 dark:border-gray-700">
+                <td class="px-6 py-4">
+                    01
+                </td>
                 <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                     Paket Clasic
                 </th>
@@ -44,10 +50,18 @@
                     1 Bulan
                 </td>
                 <td class="px-6 py-4">
-                    <a href="/product/editProduct" class="font-medium text-gray-700 hover:text-blue-600"><i data-feather="edit-3"></i></a>
+                    <a href="/member/editMember" class="text-gray-700 hover:text-blue-600">
+                        <ion-icon name="create-outline" class="text-xl stroke-2"></ion-icon>
+                    </a>
+                    <a href="#" class="text-gray-700 hover:text-red-600">
+                        <ion-icon name="trash-outline" class="text-xl stroke-2"></ion-icon>
+                    </a>
                 </td>
             </tr>
             <tr class="border-b bg-gray-50 dark:bg-gray-800 dark:border-gray-700">
+                <td class="px-6 py-4">
+                    02
+                </td>
                 <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                     Paket Silver
                 </th>
@@ -61,10 +75,18 @@
                     3 Bulan
                 </td>
                 <td class="px-6 py-4">
-                    <a href="/product/editProduct" class="font-medium text-gray-700 hover:text-blue-600"><i data-feather="edit-3"></i></a>
+                    <a href="/member/editMember" class="text-gray-700 hover:text-blue-600">
+                        <ion-icon name="create-outline" class="text-xl stroke-2"></ion-icon>
+                    </a>
+                    <a href="#" class="text-gray-700 hover:text-red-600">
+                        <ion-icon name="trash-outline" class="text-xl stroke-2"></ion-icon>
+                    </a>
                 </td>
             </tr>
             <tr class="bg-white border-b dark:bg-gray-900 dark:border-gray-700">
+                <td class="px-6 py-4">
+                    03
+                </td>
                 <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                     Paket Gold
                 </th>
@@ -78,10 +100,18 @@
                     6 Bulan
                 </td>
                 <td class="px-6 py-4">
-                    <a href="/product/editProduct" class="font-medium text-gray-700 hover:text-blue-600"><i data-feather="edit-3"></i></a>
+                    <a href="/member/editMember" class="text-gray-700 hover:text-blue-600">
+                        <ion-icon name="create-outline" class="text-xl stroke-2"></ion-icon>
+                    </a>
+                    <a href="#" class="text-gray-700 hover:text-red-600">
+                        <ion-icon name="trash-outline" class="text-xl stroke-2"></ion-icon>
+                    </a>
                 </td>
             </tr>
             <tr class="border-b bg-gray-50 dark:bg-gray-800 dark:border-gray-700">
+                <td class="px-6 py-4">
+                    04
+                </td>
                 <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                     Paket Platinum
                 </th>
@@ -95,7 +125,12 @@
                     12 Bulan
                 </td>
                 <td class="px-6 py-4">
-                    <a href="/product/editProduct" class="font-medium text-gray-700 hover:text-blue-600"><i data-feather="edit-3"></i></a>
+                    <a href="/member/editMember" class="text-gray-700 hover:text-blue-600">
+                        <ion-icon name="create-outline" class="text-xl stroke-2"></ion-icon>
+                    </a>
+                    <a href="#" class="text-gray-700 hover:text-red-600">
+                        <ion-icon name="trash-outline" class="text-xl stroke-2"></ion-icon>
+                    </a>
                 </td>
             </tr>
         </tbody>
