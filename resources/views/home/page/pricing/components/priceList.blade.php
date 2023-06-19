@@ -1,47 +1,47 @@
 <section class="pt-16 pb-4" id="pricing">
-    <div class="border-l-4 border-emerald-500">
-        <h1 class="mb-4 pl-2 font-semibold text-slate-800 text-2xl dark:text-slate-400">Pricing</h1>
+    <div class="border-l-4 border-primary">
+        <h1 class="mb-4 pl-2 font-semibold text-slate-800 text-2xl dark:text-slate-400">Berlangganan</h1>
     </div>
     <div class="your-class">
         <div class="w-full md:w-60 p-3 lg:p-6 mr-3 mb-3 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             <h5 class="mb-2 md:mb-4 text-lg md:text-xl font-semibold text-slate-800 dark:text-gray-400">🥉 Clasic</h5>
-            <div class="flex items-baseline text-emerald-500 mb-1 md:mb-4">
+            <div class="flex items-baseline text-primary mb-1 md:mb-4">
                 <span class="text-4xl lg:text-5xl font-extrabold tracking-tight">40</span>
                 <span class="text-2xl lg:text-3xl font-semibold">k</span>
                 <span class="ml-1 text-sm md:text-base font-semibold text-slate-800 dark:text-gray-400">/bulan</span>
             </div>
             <p class="text-sm mb-3 md:mb-4 md:text-base font-normal text-gray-500 dark:text-gray-400">Langganan 1 bulan Epaper Radar Bogor</p>
-            <button data-modal-target="midtransModal" data-modal-toggle="midtransModal" class="px-3 py-2 flex w-full items-center justify-center text-xs md:text-base text-white bg-emerald-500 rounded-md duration-200 hover:bg-emerald-600 focus:ring-4 focus:outline-none focus:ring-emerald-300 shadow-lg shadow-emerald-500/25 dark:shadow-emerald-500/30"><ion-icon name="cart-outline" class="mr-2 text-xl"></ion-icon>Pilih Paket</button>
+            <button data-modal-target="midtransModal" data-modal-toggle="midtransModal" class="px-3 py-2 flex w-full items-center justify-center text-xs md:text-base text-white bg-primary rounded-md duration-200 hover:bg-primary2 focus:ring-4 focus:outline-none focus:ring-primary shadow-lg shadow-primary/25 dark:shadow-primary/30"><ion-icon name="cart-outline" class="mr-2 text-xl"></ion-icon>Pilih Paket</button>
         </div>
         <div class="w-full md:w-60 p-3 lg:p-6 mr-3 mb-3 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             <h5 class="mb-2 md:mb-4 text-lg md:text-xl font-semibold text-slate-800 dark:text-gray-400">🥈 Silver</h5>
-            <div class="flex items-baseline text-emerald-500 mb-1 md:mb-4">
+            <div class="flex items-baseline text-primary mb-1 md:mb-4">
                 <span class="text-4xl lg:text-5xl font-extrabold tracking-tight">70</span>
                 <span class="text-2xl lg:text-3xl font-semibold">k</span>
                 <span class="ml-1 text-sm md:text-base font-semibold text-slate-800 dark:text-gray-400">/3 bulan</span>
             </div>
             <p class="text-sm mb-3 md:mb-4 md:text-base font-normal text-gray-500 dark:text-gray-400">Langganan 3 bulan Epaper Radar Bogor</p>
-            <button data-modal-target="midtransModal" data-modal-toggle="midtransModal" class="px-3 py-2 flex w-full items-center justify-center text-xs md:text-base text-white bg-emerald-500 rounded-md duration-200 hover:bg-emerald-600 focus:ring-4 focus:outline-none focus:ring-emerald-300 shadow-lg shadow-emerald-500/25 dark:shadow-emerald-500/30"><ion-icon name="cart-outline" class="mr-2 text-xl"></ion-icon>Pilih Paket</button>
+            <button data-modal-target="midtransModal" data-modal-toggle="midtransModal" class="px-3 py-2 flex w-full items-center justify-center text-xs md:text-base text-white bg-primary rounded-md duration-200 hover:bg-primary2 focus:ring-4 focus:outline-none focus:ring-primary shadow-lg shadow-primary/25 dark:shadow-primary/30"><ion-icon name="cart-outline" class="mr-2 text-xl"></ion-icon>Pilih Paket</button>
         </div>
         <div class="w-full md:w-60 p-3 lg:p-6 mr-3 mb-3 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             <h5 class="mb-2 md:mb-4 text-lg md:text-xl font-semibold text-slate-800 dark:text-gray-400">🥇 Gold</h5>
-            <div class="flex items-baseline text-emerald-500 mb-1 md:mb-4">
+            <div class="flex items-baseline text-primary mb-1 md:mb-4">
                 <span class="text-4xl lg:text-5xl font-extrabold tracking-tight">100</span>
                 <span class="text-2xl lg:text-3xl font-semibold">k</span>
                 <span class="ml-1 text-sm md:text-base font-semibold text-slate-800 dark:text-gray-400">/6 bulan</span>
             </div>
             <p class="text-sm mb-3 md:mb-4 md:text-base font-normal text-gray-500 dark:text-gray-400">Langganan 6 bulan Epaper Radar Bogor</p>
-            <button data-modal-target="midtransModal" data-modal-toggle="midtransModal" class="px-3 py-2 flex w-full items-center justify-center text-xs md:text-base text-white bg-emerald-500 rounded-md duration-200 hover:bg-emerald-600 focus:ring-4 focus:outline-none focus:ring-emerald-300 shadow-lg shadow-emerald-500/25 dark:shadow-emerald-500/30"><ion-icon name="cart-outline" class="mr-2 text-xl"></ion-icon>Pilih Paket</button>
+            <button data-modal-target="midtransModal" data-modal-toggle="midtransModal" class="px-3 py-2 flex w-full items-center justify-center text-xs md:text-base text-white bg-primary rounded-md duration-200 hover:bg-primary2 focus:ring-4 focus:outline-none focus:ring-primary shadow-lg shadow-primary/25 dark:shadow-primary/30"><ion-icon name="cart-outline" class="mr-2 text-xl"></ion-icon>Pilih Paket</button>
         </div>
         <div class="w-full md:w-60 p-3 lg:p-6 mr-3 mb-3 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             <h5 class="mb-2 md:mb-4 text-lg md:text-xl font-semibold text-slate-800 dark:text-gray-400">🏆 Platinum</h5>
-            <div class="flex items-baseline text-emerald-500 mb-1 md:mb-4">
+            <div class="flex items-baseline text-primary mb-1 md:mb-4">
                 <span class="text-4xl lg:text-5xl font-extrabold tracking-tight">200</span>
                 <span class="text-2xl lg:text-3xl font-semibold">k</span>
                 <span class="ml-1 text-sm md:text-base font-semibold text-slate-800 dark:text-gray-400">/12 bulan</span>
             </div>
             <p class="text-sm mb-3 md:mb-4 md:text-base font-normal text-gray-500 dark:text-gray-400">Langganan 12 bulan Epaper Radar Bogor</p>
-            <button data-modal-target="midtransModal" data-modal-toggle="midtransModal" class="px-3 py-2 flex w-full items-center justify-center text-xs md:text-base text-white bg-emerald-500 rounded-md duration-200 hover:bg-emerald-600 focus:ring-4 focus:outline-none focus:ring-emerald-300 shadow-lg shadow-emerald-500/25 dark:shadow-emerald-500/30"><ion-icon name="cart-outline" class="mr-2 text-xl"></ion-icon>Pilih Paket</button>
+            <button data-modal-target="midtransModal" data-modal-toggle="midtransModal" class="px-3 py-2 flex w-full items-center justify-center text-xs md:text-base text-white bg-primary rounded-md duration-200 hover:bg-primary2 focus:ring-4 focus:outline-none focus:ring-primary shadow-lg shadow-primary/25 dark:shadow-primary/30"><ion-icon name="cart-outline" class="mr-2 text-xl"></ion-icon>Pilih Paket</button>
         </div>
     </div>
 </section>

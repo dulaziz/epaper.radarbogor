@@ -2,30 +2,27 @@
   <div class="flex justify-between items-center max-w-screen-lg mx-auto px-4 py-2">
     <div>
       <a href="/">
-        <h1 class="uppercase font-semibold text-xl text-slate-900 dark:text-slate-100 md:hover:text-emerald-500">Radar Bogor</h1>
+        <h1 class="uppercase font-semibold text-xl text-slate-900 dark:text-slate-100 md:hover:text-primary">Radar Bogor</h1>
       </a>
     </div>
 
     <div class="nav-links duration-300 md:static absolute bg-slate-100 dark:bg-slate-900 md:min-h-fit left-0 top-[-400px] md:w-auto w-full flex items-center px-4 py-8 md:py-0">
         <ul class="flex flex-col md:flex-row md:items-center gap-4">
             <li>
-              <a href="/" class="text-slate-900 dark:text-slate-400 md:hover:text-emerald-500">Home</a>
+              <a href="/" class="{{ Request::is('/') ? 'text-primary font-semibold' : 'text-slate-900 dark:text-slate-400' }} md:hover:text-primary">Beranda</a>
             </li>
             <li>
-              <a href="#epaper" class="text-slate-900 dark:text-slate-400 md:hover:text-emerald-500">Epaper</a>
+              <a href="/pricing" class="{{ Request::is('pricing') ? 'text-primary font-semibold' : 'text-slate-900 dark:text-slate-400' }} md:hover:text-primary">Berlangganan</a>
             </li>
             <li>
-              <a href="#pricing" class="text-slate-900 dark:text-slate-400 md:hover:text-emerald-500">Pricing</a>
-            </li>
-            <li>
-              <a href="#" class="text-slate-900 dark:text-slate-400 md:hover:text-emerald-500">Contact</a>
+              <a href="#" class="text-slate-900 dark:text-slate-400 md:hover:text-primary">Contact</a>
             </li>
           </ul>
     </div>
 
     <div class="flex items-center gap-1 md:gap-3">
-        <a href="/login" class="flex items-center"><ion-icon name="log-in-outline" class="text-2xl cursor-pointer text-slate-900 dark:text-slate-400 md:hover:text-emerald-500"></ion-icon></a>
-        <a id="dropdownDefaultButton" data-dropdown-toggle="dropdown1" class="flex items-center cursor-pointer text-2xl text-slate-900 dark:text-slate-400 md:hover:text-emerald-500"><ion-icon name="person-circle-outline"></ion-icon>
+        <a href="/login" class="flex items-center"><ion-icon name="log-in-outline" class="text-2xl cursor-pointer text-slate-900 dark:text-slate-400 md:hover:text-primary"></ion-icon></a>
+        <a id="dropdownDefaultButton" data-dropdown-toggle="dropdown1" class="flex items-center cursor-pointer text-2xl text-slate-900 dark:text-slate-400 md:hover:text-primary"><ion-icon name="person-circle-outline"></ion-icon>
         </a>
       <input type="checkbox" id="toggle" class="hidden"/>
       <label for="toggle">
@@ -35,7 +32,7 @@
           <div class="w-4 h-4 bg-white rounded-full toggle-circle transition duration-300 ease-in-out absolute"></div>
         </div>
       </label>
-      <ion-icon name="menu-outline" onclick="onToggleMenu(this)" class="cursor-pointer md:hidden text-3xl text-slate-900 dark:text-slate-400 md:hover:text-emerald-500"></ion-icon>
+      <ion-icon name="menu-outline" onclick="onToggleMenu(this)" class="cursor-pointer md:hidden text-3xl text-slate-900 dark:text-slate-400 md:hover:text-primary"></ion-icon>
     </div>
   </div>
   <div id="dropdown1" class="z-10 w-64 hidden bg-white divide-y divide-gray-100 rounded-lg shadow dark:bg-gray-700">
@@ -55,12 +52,13 @@
   
       <div class="py-2 border-b">
         <h1 class="font-semibold text-gray-800 dark:text-gray-200">Member Status</h1>
-        <span class="font-medium inline-flex items-center text-emerald-500">
+        <span class="font-medium inline-flex items-center text-green-500">
           <ion-icon name="checkmark-done-outline" class="text-xl mr-1"></ion-icon>Active
         </span>
       </div>
   
-      <div class="pt-2">
+      <div class="pt-2 flex justify-between">
+        <a href="" class="text-blue-500 hover:underline inline-flex items-center"><ion-icon name="settings-outline" class="text-xl mr-1"></ion-icon>Profile</a>
         <a href="" class="text-red-500 hover:underline inline-flex items-center"><ion-icon name="power-outline" class="text-xl mr-1"></ion-icon>Logout</a>
       </div>
     </div>
@@ -92,7 +90,7 @@
       </a>
 
       <div class="flex items-center justify-center gap-2 md:hidden">
-        <a id="dropdownDefaultButton" data-dropdown-toggle="dropdown" class="cursor-pointer text-slate-900 dark:text-slate-400 md:hover:text-emerald-500"><i data-feather="user"></i></a>
+        <a id="dropdownDefaultButton" data-dropdown-toggle="dropdown" class="cursor-pointer text-slate-900 dark:text-slate-400 md:hover:text-primary"><i data-feather="user"></i></a>
           <div id="dropdown" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
               <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefaultButton">
                 <li>
@@ -130,20 +128,20 @@
       <div class="hidden w-full md:flex md:items-center md:w-auto" id="navbar-default">
         <ul class="flex flex-col p-4 mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
           <li>
-            <a href="/" class="block py-2 pl-3 pr-4 md:p-0 text-center text-slate-900 dark:text-slate-400 md:hover:text-emerald-500 hover:bg-gray-100 md:hover:bg-transparent rounded" aria-current="page">Home</a>
+            <a href="/" class="block py-2 pl-3 pr-4 md:p-0 text-center text-slate-900 dark:text-slate-400 md:hover:text-primary hover:bg-gray-100 md:hover:bg-transparent rounded" aria-current="page">Home</a>
           </li>
           <li>
-            <a href="#" class="block py-2 pl-3 pr-4 md:p-0 text-center text-slate-900 dark:text-slate-400 md:hover:text-emerald-500 hover:bg-gray-100 md:hover:bg-transparent rounded">Epaper</a>
+            <a href="#" class="block py-2 pl-3 pr-4 md:p-0 text-center text-slate-900 dark:text-slate-400 md:hover:text-primary hover:bg-gray-100 md:hover:bg-transparent rounded">Epaper</a>
           </li>
           <li>
-            <a href="#" class="block py-2 pl-3 pr-4 md:p-0 text-center text-slate-900 dark:text-slate-400 md:hover:text-emerald-500 hover:bg-gray-100 md:hover:bg-transparent rounded">Pricing</a>
+            <a href="#" class="block py-2 pl-3 pr-4 md:p-0 text-center text-slate-900 dark:text-slate-400 md:hover:text-primary hover:bg-gray-100 md:hover:bg-transparent rounded">Pricing</a>
           </li>
           <li>
-            <a href="#" class="block py-2 pl-3 pr-4 md:p-0 text-center text-slate-900 dark:text-slate-400 md:hover:text-emerald-500 hover:bg-gray-100 md:hover:bg-transparent rounded">Contact</a>
+            <a href="#" class="block py-2 pl-3 pr-4 md:p-0 text-center text-slate-900 dark:text-slate-400 md:hover:text-primary hover:bg-gray-100 md:hover:bg-transparent rounded">Contact</a>
           </li>
         </ul>
             <div class="md:flex items-center justify-center gap-2 hidden">
-              <a id="dropdownDefaultButton" data-dropdown-toggle="dropdown1" class="cursor-pointer text-slate-900 dark:text-slate-400 md:hover:text-emerald-500"><i data-feather="user"></i></a>
+              <a id="dropdownDefaultButton" data-dropdown-toggle="dropdown1" class="cursor-pointer text-slate-900 dark:text-slate-400 md:hover:text-primary"><i data-feather="user"></i></a>
               <div id="dropdown1" class="z-10 w-64 hidden bg-white divide-y divide-gray-100 rounded-lg shadow dark:bg-gray-700">
                 <div class="p-3 text-center text-sm">
                   
@@ -161,7 +159,7 @@
 
                   <div class="py-2 border-b">
                     <h1 class="font-semibold">Member Status</h1>
-                    <span class="font-medium inline-flex items-center text-emerald-500">
+                    <span class="font-medium inline-flex items-center text-primary">
                       <span data-feather="check-circle" class="size-12 mr-1"></span>Active
                     </span>
                   </div>

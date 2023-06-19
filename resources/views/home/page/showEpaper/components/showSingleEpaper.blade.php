@@ -1,6 +1,6 @@
 <section class="pb-8 pt-16">
     <div class="bg-white border border-gray-200 shadow-md rounded-lg p-2 md:p-4 dark:bg-gray-800 dark:border-gray-700">
-        <div class="flex md:items-center justify-between mb-3">
+        <div class="flex md:items-center justify-between mb-2">
             <h1 class="md:text-xl font-medium dark:text-gray-400">
                 Epaper Edisi 8 Februari 2023 | RADAR BOGOR DIGITAL
             </h1>
