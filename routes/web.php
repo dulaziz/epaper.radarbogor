@@ -36,6 +36,11 @@ Route::get('/order', function () {
     return view('dashboard.page.order.index');
 });
 
+//Order
+Route::get('/pricing', function () {
+    return view('home.page.pricing.index');
+});
+
 //Member
 Route::get('/member', function () {
     return view('dashboard.page.member.index');
