@@ -117,7 +117,7 @@
                 </td>
                 <td class="px-6 py-4">
                     <div class="flex items-center">
-                        <div class="h-2.5 w-2.5 rounded-full bg-red-500 mr-2"></div> Expired
+                        <div class="h-2.5 w-2.5 rounded-full bg-green-500 mr-2"></div> Active
                     </div>
                 </td>
                 <td class="px-6 py-4">
@@ -153,7 +153,7 @@
                 </td>
                 <td class="px-6 py-4">
                     <div class="flex items-center">
-                        <div class="h-2.5 w-2.5 rounded-full bg-yellow-300 mr-2"></div> Waiting
+                        <div class="h-2.5 w-2.5 rounded-full bg-red-500 mr-2"></div> Expired
                 </td>
                 <td class="px-6 py-4">
                     11 Februari 2023
@@ -188,7 +188,7 @@
                 </td>
                 <td class="px-6 py-4">
                     <div class="flex items-center">
-                        <div class="h-2.5 w-2.5 rounded-full bg-gray-500 mr-2"></div> Cenceled
+                        <div class="h-2.5 w-2.5 rounded-full bg-red-500 mr-2"></div> Expired
                     </div>
                 </td>
                 <td class="px-6 py-4">

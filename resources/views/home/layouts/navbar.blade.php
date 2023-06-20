@@ -58,7 +58,7 @@
       </div>
   
       <div class="pt-2 flex justify-between">
-        <a href="" class="text-blue-500 hover:underline inline-flex items-center"><ion-icon name="settings-outline" class="text-xl mr-1"></ion-icon>Profile</a>
+        <a href="/profile/detail" class="text-blue-500 hover:underline inline-flex items-center"><ion-icon name="settings-outline" class="text-xl mr-1"></ion-icon>Profile</a>
         <a href="" class="text-red-500 hover:underline inline-flex items-center"><ion-icon name="power-outline" class="text-xl mr-1"></ion-icon>Logout</a>
       </div>
     </div>

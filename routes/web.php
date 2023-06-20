@@ -30,6 +30,12 @@ Route::get('/showEpaper', function () {
 Route::get('/epaperList', function () {
     return view('home.page.epaperList.index');
 });
+Route::get('/profile/detail', function () {
+    return view('home.page.profile.detail.index');
+});
+Route::get('/profile/edit', function () {
+    return view('home.page.profile.edit.index');
+});
 
 //Order
 Route::get('/order', function () {
