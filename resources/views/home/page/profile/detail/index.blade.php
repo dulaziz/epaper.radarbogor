@@ -8,19 +8,19 @@
     <h1 class="mb-4 text-primary font-semibold text-2xl dark:text-slate-400">Detail Profil</h1>
 
     <div>
-    <div class="grid grid-cols-3 gap-4">
-    <div class="col-span-2 bg-gray-50 border-t-4 border-t-primary rounded-lg p-6 shadow-md">
-        <figure class="flex items-center space-x-4 mb-8">
-            <div class="mb-1 w-20 h-20 overflow-hidden bg-gray-100 rounded-full dark:bg-gray-600">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+    <div class="md:col-span-2 bg-gray-50 border-t-4 border-t-primary rounded-lg p-6 shadow-md">
+        <figure class="md:flex items-center md:space-x-4 mb-8">
+            <div class="mb-4 md:mb-0 mx-auto md:mx-0 w-20 h-20 overflow-hidden bg-gray-100 rounded-full dark:bg-gray-600">
                 <img src="/blank-profile.png" alt="user-profile">
             </div>
-                <div>
-                    <h2 class="text-2xl text-primary font-semibold mb-1">User123</h2>
+                <div class="text-center md:text-start">
+                    <h2 class="text-2xl text-primary font-semibold mb-0 md:mb-1">User123</h2>
                     <p>Belum Berlangganan</p>
                 </div>
         </figure>
-        <div class="grid grid-cols-3 gap-4">
-            <div class="col-span-2 space-y-4">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <div class="md:col-span-2 space-y-4">
                 <div>
                     <label>Email</label>
                     <p class="font-medium">user123@gmail.com</p>

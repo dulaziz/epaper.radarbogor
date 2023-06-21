@@ -24,14 +24,17 @@
         <a href="/login" class="flex items-center"><ion-icon name="log-in-outline" class="text-2xl cursor-pointer text-slate-900 dark:text-slate-400 md:hover:text-primary"></ion-icon></a>
         <a id="dropdownDefaultButton" data-dropdown-toggle="dropdown1" class="flex items-center cursor-pointer text-2xl text-slate-900 dark:text-slate-400 md:hover:text-primary"><ion-icon name="person-circle-outline"></ion-icon>
         </a>
-      <input type="checkbox" id="toggle" class="hidden"/>
+
+        {{-- Dark Toggle --}}
+      {{-- <input type="checkbox" id="toggle" class="hidden"/>
       <label for="toggle">
         <div class="w-10 h-5 bg-slate-900 dark:bg-slate-400 rounded-full flex gap-2 items-center p-1 cursor-pointer relative">
           <ion-icon name="moon-outline" class="text-white text-xl"></ion-icon>
           <ion-icon name="sunny-outline" class="text-yellow-400 text-2xl"></ion-icon>
           <div class="w-4 h-4 bg-white rounded-full toggle-circle transition duration-300 ease-in-out absolute"></div>
         </div>
-      </label>
+      </label> --}}
+      
       <ion-icon name="menu-outline" onclick="onToggleMenu(this)" class="cursor-pointer md:hidden text-3xl text-slate-900 dark:text-slate-400 md:hover:text-primary"></ion-icon>
     </div>
   </div>

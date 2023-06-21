@@ -8,14 +8,14 @@
     <h1 class="mb-4 text-primary font-semibold text-2xl dark:text-slate-400">Edit Profil</h1>
 
     <div>
-    <div class="grid grid-cols-3 gap-4">
-    <div class="col-span-2 bg-gray-50 border-t-4 border-t-primary rounded-lg p-6 shadow-md">
-        <figure class="flex items-center space-x-4 mb-8">
-            <div class="mb-1 w-20 h-20 overflow-hidden bg-gray-100 rounded-full dark:bg-gray-600">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+    <div class="md:col-span-2 bg-gray-50 border-t-4 border-t-primary rounded-lg p-6 shadow-md">
+        <figure class="md:flex items-center md:space-x-4 mb-8">
+            <div class="mb-4 mx-auto md:mx-0 md:mb-0 w-20 h-20 overflow-hidden bg-gray-100 rounded-full dark:bg-gray-600">
                 <img src="/blank-profile.png" alt="user-profile">
             </div>
                 <div>
-                    <form action="">
+                    <form action="" class="text-center md:text-start">
                         <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white" for="file_input">
                             Upload photo
                         </label>
@@ -28,8 +28,8 @@
                     <p>Belum Berlangganan</p> --}}
                 </div>
         </figure>
-        <div class="grid grid-cols-3 gap-4">
-            <div class="col-span-2 space-y-4">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <div class="md:col-span-2 space-y-4">
                 <div>
                     <label class="block mb-1">Nama Lengkap</label>
                     <input type="text" id="name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-md block w-full p-2" placeholder="Nama lengkap" required>
@@ -50,7 +50,7 @@
                 </div>
             </div>
             <button class="bg-primary text-gray-50 py-2 rounded-md mb-2 hover:bg-primary2 transition duration-200">Simpan</button>
-            <button class="bg-transparent border border-primary text-primary py-2 rounded-md mb-2 hover:bg-primary hover:text-white transition duration-200">Batal</button>
+            <a href="/profile/detail" class="bg-transparent border text-center border-primary text-primary py-2 rounded-md mb-2 hover:bg-primary hover:text-white transition duration-200">Batal</a>
         </div>
     </div>
     <div class="bg-gray-50 border-t-4 border-t-primary rounded-lg p-6 shadow-md">
