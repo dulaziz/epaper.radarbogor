@@ -12,10 +12,10 @@
               <a href="/" class="{{ Request::is('/') ? 'text-primary font-semibold' : 'text-slate-900 dark:text-slate-400' }} md:hover:text-primary">Beranda</a>
             </li>
             <li>
-              <a href="/pricing" class="{{ Request::is('pricing') ? 'text-primary font-semibold' : 'text-slate-900 dark:text-slate-400' }} md:hover:text-primary">Berlangganan</a>
+              <a href="/epaperList" class="{{ Request::is('epaperList') ? 'text-primary font-semibold' : 'text-slate-900 dark:text-slate-400' }} md:hover:text-primary">Epaper</a>
             </li>
             <li>
-              <a href="#" class="text-slate-900 dark:text-slate-400 md:hover:text-primary">Contact</a>
+              <a href="/pricing" class="{{ Request::is('pricing') ? 'text-primary font-semibold' : 'text-slate-900 dark:text-slate-400' }} md:hover:text-primary">Berlangganan</a>
             </li>
           </ul>
     </div>

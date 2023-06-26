@@ -1,9 +1,9 @@
 <section class="pb-8 pt-16">
     <div class="mb-4 flex flex-col md:flex-row md:items-center md:justify-between">
         <div class="mb-2 md:mb-0 flex items-center space-x-2">
-            <a href="/" class="text-slate-800 text-2xl dark:text-slate-400 hover:text-primary"><ion-icon name="arrow-undo-outline" class="text-2xl"></ion-icon></a>
-            <div class="border-l-2 h-5 border-slate-800"></div>
-            <h1 class="font-semibold text-slate-800 text-2xl dark:text-slate-400">Epaper</h1>
+            <div class="border-l-4 border-primary mb-2 md:mb-0">
+                <h1 class="pl-2 font-semibold text-slate-800 text-2xl dark:text-slate-400">Epaper</h1>
+            </div>
         </div>
 
         <form class="flex items-center">   
